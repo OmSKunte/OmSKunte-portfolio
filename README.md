@@ -9,6 +9,8 @@ Personal portfolio website showcasing my projects, skills, and experience in Dat
 <img width="1906" height="883" alt="Screenshot 2026-02-17 150151" src="https://github.com/user-attachments/assets/d408f314-028f-48f6-b99c-ad5e1720f9ac" />
 <img width="1906" height="855" alt="Screenshot 2026-02-17 150204" src="https://github.com/user-attachments/assets/b04feaa1-fe7d-4ad8-9d32-3157d3367e0a" />
 <img width="1908" height="892" alt="Screenshot 2026-02-17 150223" src="https://github.com/user-attachments/assets/991fa3ea-435f-4c8a-a5fe-1ba4cad12239" />
+<img width="1900" height="87" alt="image" src="https://github.com/user-attachments/assets/7b0804bb-f2b4-4a5c-9175-de06f5dee7e8" />
+
 
 
 
