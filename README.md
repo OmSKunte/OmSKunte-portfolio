@@ -1,6 +1,6 @@
  OmSKunte-portfolio
 Personal portfolio website showcasing my projects, skills, and experience in Data Science, Machine Learning, and AI.
-## 🏠 Home Section – Hero Overview
+## 🏠 Home Section
 ![Home Section](https://github.com/user-attachments/assets/3bd0a706-313d-40c5-84cf-5eb4cbe75122)
 <img width="1913" height="865" alt="Screenshot 2026-02-17 150015" src="https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff6" />
 <img width="1908" height="857" alt="Screenshot 2026-02-17 150032" src="https://github.com/user-attachments/assets/74070424-d736-4749-8af6-1cc0ed14e5ca" />
