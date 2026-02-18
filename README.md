@@ -2,7 +2,7 @@
 Personal portfolio website showcasing my projects, skills, and experience in Data Science, Machine Learning, and AI.
 ## 🏠 Home Section
 ![Home Section](https://github.com/user-attachments/assets/3bd0a706-313d-40c5-84cf-5eb4cbe75122)
-## 👤 About Me Section – Professional Summary
+## 👤 About Me Section 
 ![About Me Section](https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff6)
 ## 💼 Projects Section
 ![Projects Section](https://github.com/user-attachments/assets/74070424-d736-4749-8af6-1cc0ed14e5ca)
