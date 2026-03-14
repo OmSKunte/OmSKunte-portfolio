@@ -897,318 +897,87 @@
             transform: translateY(0);
         }
 
-        /* ─── Responsive Design for All Devices ─── */
-        
-        /* Large Tablets and Small Laptops (below 1024px) */
+        /* ─── Responsive ─── */
         @media (max-width: 1024px) {
-            .container {
-                padding: 0 1.5rem;
-            }
-            
-            nav ul {
-                gap: 1.5rem;
-            }
-            
-            .hero-text h1 {
-                font-size: 3rem;
-            }
-            
-            .profile-photo {
-                width: 300px;
-                height: 300px;
-            }
-            
-            .academic-logo {
-                width: 200px;
-                height: 120px;
-            }
+            .container { padding: 0 1.5rem; }
+            nav ul { gap: 1.5rem; }
+            .hero-text h1 { font-size: 3rem; }
+            .profile-photo { width: 300px; height: 300px; }
+            .academic-logo { width: 200px; height: 120px; }
         }
-        
-        /* Tablets (below 768px) */
+
         @media (max-width: 768px) {
-            /* Show mobile menu toggle */
-            .menu-toggle {
-                display: flex;
-            }
-            
-            /* Mobile navigation */
+            .menu-toggle { display: flex; }
             nav ul {
                 position: fixed;
-                top: 0;
-                right: -100%;
-                height: 100vh;
-                width: 70%;
-                max-width: 300px;
-                background: rgba(15, 23, 42, 0.98);
+                top: 0; right: -100%;
+                height: 100vh; width: 70%; max-width: 300px;
+                background: rgba(15,23,42,0.98);
                 backdrop-filter: blur(20px);
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                justify-content: center; align-items: center;
                 gap: 2.5rem;
                 transition: right 0.3s ease;
-                box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+                box-shadow: -5px 0 20px rgba(0,0,0,0.5);
                 z-index: 1000;
             }
-            
-            nav ul.active {
-                right: 0;
-            }
-            
-            nav ul li a {
-                font-size: 1.1rem;
-            }
-            
-            /* Hero section - stack vertically */
-            .hero-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-                gap: 3rem;
-            }
-            
-            .hero-text h1 {
-                font-size: 2.5rem;
-            }
-            
-            .hero-text h2 {
-                font-size: 1.3rem;
-            }
-            
-            .hero-buttons {
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-            
-            .social-links {
-                justify-content: center;
-            }
-            
-            .profile-photo {
-                width: 280px;
-                height: 280px;
-            }
-            
-            /* Projects - single column */
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            /* Stats - 2 columns */
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 2rem;
-            }
-            
-            /* Sections */
-            section {
-                padding: 4rem 0;
-            }
-            
-            .section-header h2 {
-                font-size: 2rem;
-            }
-            
-            /* Cards and content */
-            .about-content,
-            .contact-form-container {
-                padding: 2rem 1.5rem;
-            }
-            
-            /* Academic cards with logo - stack on tablet */
-            .academic-card-with-logo {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .academic-logo {
-                width: 200px;
-                height: 120px;
-                margin: 1rem auto 0;
-            }
-            
-            /* Experience card */
-            .experience-card {
-                padding: 2rem 1.5rem;
-            }
-            
-            /* Certifications - 2 columns on tablet */
-            .certifications-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            /* Scroll to top button */
-            .scroll-to-top {
-                bottom: 1.5rem;
-                right: 1.5rem;
-                width: 45px;
-                height: 45px;
-            }
-            
-            /* Typing animation - allow wrapping on smaller screens */
-            .typing-text {
-                white-space: normal;
-                border-right: none;
-                animation: none;
-            }
+            nav ul.active { right: 0; }
+            nav ul li a { font-size: 1.1rem; }
+            .hero-content { grid-template-columns: 1fr; text-align: center; gap: 3rem; }
+            .hero-text h1 { font-size: 2.5rem; }
+            .hero-text h2 { font-size: 1.3rem; }
+            .hero-buttons { justify-content: center; flex-wrap: wrap; }
+            .social-links { justify-content: center; }
+            .profile-photo { width: 280px; height: 280px; }
+            .projects-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2,1fr); gap: 2rem; }
+            section { padding: 4rem 0; }
+            .section-header h2 { font-size: 2rem; }
+            .about-content, .contact-form-container { padding: 2rem 1.5rem; }
+            .academic-card-with-logo { flex-direction: column; text-align: center; }
+            .academic-logo { width: 200px; height: 120px; margin: 1rem auto 0; }
+            .experience-card { padding: 2rem 1.5rem; }
+            .certifications-grid { grid-template-columns: repeat(2,1fr); }
+            .scroll-to-top { bottom: 1.5rem; right: 1.5rem; width: 45px; height: 45px; }
+            .typing-text { white-space: normal; border-right: none; animation: none; }
         }
-        
-        /* Mobile Phones (below 480px) */
+
         @media (max-width: 480px) {
-            .container {
-                padding: 0 1rem;
-            }
-            
-            /* Hero */
-            .hero-text h1 {
-                font-size: 2rem;
-            }
-            
-            .hero-text h2 {
-                font-size: 1.1rem;
-            }
-            
-            .hero-text p {
-                font-size: 1rem;
-            }
-            
-            .hero-buttons {
-                flex-direction: column;
-                gap: 1rem;
-                width: 100%;
-            }
-            
-            .btn {
-                width: 100%;
-                padding: 1rem 1.5rem;
-            }
-            
-            .profile-photo {
-                width: 220px;
-                height: 220px;
-            }
-            
-            /* Stats - single column */
-            .stats-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            
-            .stat-number {
-                font-size: 2.5rem;
-            }
-            
-            /* Sections */
-            section {
-                padding: 3rem 0;
-            }
-            
-            .section-header h2 {
-                font-size: 1.8rem;
-            }
-            
-            .section-header p {
-                font-size: 1rem;
-            }
-            
-            /* Projects */
-            .project-image {
-                height: 180px;
-            }
-            
-            .project-content {
-                padding: 1.5rem;
-            }
-            
-            .project-card h3 {
-                font-size: 1.3rem;
-            }
-            
-            /* Skills */
-            .skill-category h3 {
-                font-size: 1.2rem;
-            }
-            
-            .skill-badge {
-                padding: 0.8rem 1.2rem;
-                font-size: 0.9rem;
-            }
-            
-            /* Experience */
-            .experience-card h3 {
-                font-size: 1.5rem;
-            }
-            
-            .experience-card .company {
-                font-size: 1.1rem;
-            }
-            
-            /* Academics */
-            .academic-card h3 {
-                font-size: 1.2rem;
-            }
-            
-            .academic-logo {
-                width: 150px;
-                height: 90px;
-            }
-            
-            /* Certifications - single column */
-            .certifications-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            /* Contact form */
-            .contact-form-container {
-                padding: 1.5rem 1rem;
-            }
-            
-            .form-group input,
-            .form-group textarea {
-                padding: 0.875rem 1rem;
-                font-size: 0.95rem;
-            }
-            
-            .submit-btn {
-                padding: 1rem 1.5rem;
-                font-size: 1rem;
-            }
-            
-            /* Social links */
-            .social-links a,
-            .form-social-links a {
-                width: 42px;
-                height: 42px;
-            }
-            
-            .social-links a img,
-            .form-social-links a img {
-                width: 20px;
-                height: 20px;
-            }
-            
-            /* Scroll indicator */
-            .scroll-indicator {
-                font-size: 0.9rem;
-            }
+            .container { padding: 0 1rem; }
+            .hero-text h1 { font-size: 2rem; }
+            .hero-text h2 { font-size: 1.1rem; }
+            .hero-text p { font-size: 1rem; }
+            .hero-buttons { flex-direction: column; gap: 1rem; width: 100%; }
+            .btn { width: 100%; padding: 1rem 1.5rem; }
+            .profile-photo { width: 220px; height: 220px; }
+            .stats-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .stat-number { font-size: 2.5rem; }
+            section { padding: 3rem 0; }
+            .section-header h2 { font-size: 1.8rem; }
+            .section-header p { font-size: 1rem; }
+            .project-image { height: 180px; }
+            .project-content { padding: 1.5rem; }
+            .project-card h3 { font-size: 1.3rem; }
+            .skill-category h3 { font-size: 1.2rem; }
+            .skill-badge { padding: 0.8rem 1.2rem; font-size: 0.9rem; }
+            .experience-card h3 { font-size: 1.5rem; }
+            .experience-card .company { font-size: 1.1rem; }
+            .academic-card h3 { font-size: 1.2rem; }
+            .academic-logo { width: 150px; height: 90px; }
+            .certifications-grid { grid-template-columns: 1fr; }
+            .contact-form-container { padding: 1.5rem 1rem; }
+            .form-group input, .form-group textarea { padding: 0.875rem 1rem; font-size: 0.95rem; }
+            .submit-btn { padding: 1rem 1.5rem; font-size: 1rem; }
+            .social-links a, .form-social-links a { width: 42px; height: 42px; }
+            .social-links a img, .form-social-links a img { width: 20px; height: 20px; }
+            .scroll-indicator { font-size: 0.9rem; }
         }
-        
-        /* Extra Small Phones (below 360px) */
+
         @media (max-width: 360px) {
-            .hero-text h1 {
-                font-size: 1.6rem;
-            }
-            
-            .profile-photo {
-                width: 180px;
-                height: 180px;
-            }
-            
-            .section-header h2 {
-                font-size: 1.5rem;
-            }
-            
-            nav .logo {
-                font-size: 1.3rem;
-            }
+            .hero-text h1 { font-size: 1.6rem; }
+            .profile-photo { width: 180px; height: 180px; }
+            .section-header h2 { font-size: 1.5rem; }
+            nav .logo { font-size: 1.3rem; }
         }
     </style>
 </head>
@@ -1252,8 +1021,8 @@
                     <p>Turning data into meaningful insights through analytics and machine learning.</p>
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                       <a href="https://drive.google.com/file/d/1LR9mjeD0xLtdrnl_HTYtZ54wfz_K0L-5/view?usp=sharing" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-secondary"> View Resume</a>
+                        <a href="https://drive.google.com/file/d/1LR9mjeD0xLtdrnl_HTYtZ54wfz_K0L-5/view?usp=sharing" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-secondary">View Resume</a>
                     </div>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/om-kunte-a945211b6/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
@@ -1285,15 +1054,15 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item fade-in">
-                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-number" data-target="3" data-suffix="+">0</div>
                     <div class="stat-label">Projects Completed</div>
                 </div>
                 <div class="stat-item fade-in">
-                    <div class="stat-number" data-target="7">0</div>
+                    <div class="stat-number" data-target="3" data-suffix="+">0</div>
                     <div class="stat-label">Certifications</div>
                 </div>
                 <div class="stat-item fade-in">
-                    <div class="stat-number" data-target="9">0</div>
+                    <div class="stat-number" data-target="3" data-suffix="+">0</div>
                     <div class="stat-label">Technical Skills</div>
                 </div>
             </div>
@@ -1335,13 +1104,15 @@
                 <p>Building intelligent solutions with data and AI</p>
             </div>
             <div class="projects-grid">
+
+                <!-- Project 1: LLM Tool -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="images/LLM.png" alt="LLM-Based Equity Research Tool">
                     </div>
                     <div class="project-content">
                         <h3>LLM-Based Equity Research Tool</h3>
-                        <p>Developed an AI-powered document and web intelligence tool that enables users to upload files or analyze 
+                        <p>Developed an AI-powered document and web intelligence tool that enables users to upload files or analyze
                         web content, ask contextual questions, and generate concise summaries in real time.
                         Leverages NLP and large language models to extract meaningful insights from complex sources.</p>
                         <div class="tech-stack">
@@ -1350,47 +1121,33 @@
                             <span class="tech-tag">LLM APIs</span>
                             <span class="tech-tag">Web Scraping</span>
                         </div>
-                      <a href="https://github.com/OmSKunte/LLM-Based-Equity-Research-Tool" target="_blank" rel="noopener noreferrer" 
-                        class="btn btn-secondary"> View on GitHub </a>
+                        <a href="https://github.com/OmSKunte/LLM-Based-Equity-Research-Tool" target="_blank" rel="noopener noreferrer"
+                           class="btn btn-secondary">View on GitHub</a>
                     </div>
                 </div>
+
+                <!-- Project 2: World Energy -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="images/world-energy.png" alt="World Energy Consumption Analysis">
                     </div>
                     <div class="project-content">
                         <h3>World Energy Consumption Analysis</h3>
-                        <p>Conducted comprehensive machine learning analysis on global energy consumption data to identify demand 
+                        <p>Conducted comprehensive machine learning analysis on global energy consumption data to identify demand
                         patterns and cost insights. Provides data-driven recommendations for energy planning and helps understand
-                         global energy trends and their economic implications.</p>
+                        global energy trends and their economic implications.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Pandas</span>
                             <span class="tech-tag">NumPy</span>
                             <span class="tech-tag">Matplotlib</span>
                             <span class="tech-tag">Seaborn</span>
-                       </div>
-                        <a href="https://github.com/OmSKunte/World-Energy-Consumption.git" target="_blank" rel="noopener noreferrer" 
-                        class="btn btn-secondary"> View on GitHub </a>
-                </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/Portfolio.png" alt="LLM-Based Equity Research Tool">
-                    </div>
-                    <div class="project-content">
-                        <h3>Personal Portfolio Website</h3>
-                        <p>Developed a modern, responsive personal portfolio website to showcase projects and certifications; 
-                        designed with a clean dark theme and smooth animations for a professional experience; structured sections 
-                        to clearly present skills, experience, and technical expertise in Data Analytics and Machine Learning.</p>
-                        <div class="tech-stack">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
                         </div>
-                        <a href="https://github.com/OmSKunte/OmSKunte-portfolio" class="btn btn-secondary">View on GitHub</a>
+                        <a href="https://github.com/OmSKunte/World-Energy-Consumption.git" target="_blank" rel="noopener noreferrer"
+                           class="btn btn-secondary">View on GitHub</a>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -1413,6 +1170,7 @@
                         <span class="skill-badge"><img src="images/Css.png" alt="CSS"> CSS</span>
                         <span class="skill-badge"><img src="images/Pandas.png" alt="Pandas"> Pandas</span>
                         <span class="skill-badge"><img src="images/Numpy.png" alt="NumPy"> NumPy</span>
+                        <span class="skill-badge"><img src="images/power bi.png" alt="Power BI"> Power BI</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -1594,7 +1352,6 @@
                     <p>Feel free to reach out!</p>
                 </div>
                 <div class="contact-form-container">
-
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Your Name</label>
@@ -1616,7 +1373,6 @@
                             ✗ Something went wrong. Please email me directly at omkunte7@gmail.com
                         </div>
                     </form>
-
                     <div class="form-social-links">
                         <a href="https://www.linkedin.com/in/om-kunte-a945211b6/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                             <img src="images/linkedin.png" alt="LinkedIn">
@@ -1644,7 +1400,6 @@
     </footer>
 
     <script>
-        // ── Formspree config ──
         const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xeelkrgr';
 
         // Page Loader
@@ -1723,19 +1478,20 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Animated counter
+        // ── Animated counter with + suffix support ──
         function animateCounter(element) {
             const target   = parseInt(element.getAttribute('data-target'));
+            const suffix   = element.getAttribute('data-suffix') || '';
             const duration = 2000;
             const step     = target / (duration / 16);
             let current    = 0;
             const update   = () => {
                 current += step;
                 if (current < target) {
-                    element.textContent = Math.floor(current);
+                    element.textContent = Math.floor(current) + suffix;
                     requestAnimationFrame(update);
                 } else {
-                    element.textContent = target;
+                    element.textContent = target + suffix;
                 }
             };
             update();
@@ -1764,16 +1520,14 @@
             if (t) t.style.borderRight = 'none';
         }, 4500);
 
-        // ✅ Contact Form — Formspree Integration
-        const contactForm  = document.getElementById('contactForm');
-        const formSuccess  = document.getElementById('formSuccess');
-        const formError    = document.getElementById('formError');
-        const submitBtn    = document.getElementById('submitBtn');
+        // Contact Form — Formspree
+        const contactForm = document.getElementById('contactForm');
+        const formSuccess = document.getElementById('formSuccess');
+        const formError   = document.getElementById('formError');
+        const submitBtn   = document.getElementById('submitBtn');
 
         contactForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-
-            // Hide any previous messages
             formSuccess.classList.remove('show');
             formError.classList.remove('show');
 
@@ -1781,18 +1535,14 @@
             submitBtn.textContent = 'Sending...';
             submitBtn.disabled    = true;
 
-            // Gather form data
             const formData = new FormData(contactForm);
 
             try {
                 const response = await fetch(FORMSPREE_ENDPOINT, {
                     method: 'POST',
                     body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
+                    headers: { 'Accept': 'application/json' }
                 });
-
                 if (response.ok) {
                     formSuccess.classList.add('show');
                     contactForm.reset();
