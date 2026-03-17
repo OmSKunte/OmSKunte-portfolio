@@ -27,7 +27,7 @@ Contact form integration
 ## Projects Section
 ![Projects Section](https://github.com/user-attachments/assets/74070424-d736-4749-8af6-1cc0ed14e5ca)
 ## Skills Section
-![Skills Section](https://github.com/user-attachments/assets/d51cb083-aa4c-4548-9bff-a438f626ed50)
+![Skills Section](https://github.com/user-attachments/assets/ccbb83b0-e7fe-4618-a5f0-144abfb531a4)
 ## Professional Experience
 ![Professional Experience](https://github.com/user-attachments/assets/67bc404d-b2dd-40df-afee-0e9231eeceb5)
 ## My Qualifications
