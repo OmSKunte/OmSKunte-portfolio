@@ -16,11 +16,14 @@ JavaScript
 🚀 What It Includes
 
 ## 🏠 Home Section
+
 ![Home Section](https://github.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
 
 
 ## 👤 About Me Section  
-🔗 https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff
+
+![About Me Section](https://github.com/user-attachments/assets/f5703dd4-0053-4d92-9fba-a0673f8bb214)
+
 
 Overview of background, interests, and focus in Data Analytics and Machine Learning.
 
