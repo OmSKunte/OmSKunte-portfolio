@@ -2,7 +2,7 @@ OmSKunte-Portfolio
 
 Personal portfolio website showcasing my projects, skills, certifications, and experience in Data Analytics, Machine Learning, and AI.
 
-🌐 Live Website
+## 🌐 Live Website  
 
 🔗 https://omskunte.github.io/OmSKunte-Portfolio/
 
@@ -20,22 +20,23 @@ JavaScript
 
 
 ## 👤 About Me Section  
-🔗 https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff6
+🔗 https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff
 
 Overview of background, interests, and focus in Data Analytics and Machine Learning.
 
-💼 Projects Section
+## 💼 Projects Section  
+![Projects Section 1](https://github.com/user-attachments/assets/4db04c6f-ca13-4618-8a78-4918fde5b046)  
+![Projects Section 2](https://github.com/user-attachments/assets/34b40f68-94e5-4d3f-bffe-6a4c4f4d6692)
 
-🔗 https://github.com/user-attachments/assets/74070424-d736-4749-8af6-1cc0ed14e5ca
 
 Includes key projects:
 
 LLM-Based Equity Research Tool
 World Energy Consumption Analysis
 Sales Analysis Dashboard
-🛠 Skills Section
 
-🔗 https://github.com/user-attachments/assets/ccbb83b0-e7fe-4618-a5f0-144abfb531a4
+## 🛠 Skills Section  
+![Skills Section](https://github.com/user-attachments/assets/38aae5e8-1ea6-4006-9ccb-ac9185089b1d)  
 
 Technical skills in Python, SQL, Power BI, Machine Learning, and Data Visualization.
 
@@ -45,9 +46,8 @@ Technical skills in Python, SQL, Power BI, Machine Learning, and Data Visualizat
 
 Includes Deloitte Data Analytics Job Simulation and practical experience.
 
-🎓 Qualifications
-
-🔗 https://github.com/user-attachments/assets/c4068bae-eeab-4b84-9e9b-fa2019461395
+## 🎓 Qualifications  
+![Qualifications](https://github.com/user-attachments/assets/3de4c6a0-8497-4852-9e9d-691cdf341365)  
 
 Academic background in Computer Science.
 
