@@ -16,8 +16,7 @@ JavaScript
 🚀 What It Includes
 
 ## 🏠 Home Section
-![Home Section](https://gi
-thub.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
+![Home Section](https://github.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
 
 
 ## 👤 About Me Section  
