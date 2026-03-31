@@ -45,12 +45,14 @@ Sales Analysis Dashboard
 
 Technical skills in Python, SQL, Power BI, Machine Learning, and Data Visualization.
 
-💻 Professional Experience
+## 💻 Professional Experience  
 
-🔗 https://github.com/user-attachments/assets/67bc404d-b2dd-40df-afee-0e9231eeceb5
+![Professional Experience](https://github.com/user-attachments/assets/ffdb845f-ff74-4129-82b0-4725cd5de295)  
 
-Includes Deloitte Data Analytics Job Simulation and practical experience.
-
+Experience includes:
+- Data Analytics Intern at Micro Form Tools (business data analysis, dashboards, insights)
+- Data Analytics Job Simulation at Deloitte (data analysis, trend detection, anomaly identification)
+  
 ## 🎓 Qualifications  
 
 ![Qualifications](https://github.com/user-attachments/assets/3de4c6a0-8497-4852-9e9d-691cdf341365)  
