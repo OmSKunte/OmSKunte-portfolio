@@ -14,14 +14,12 @@ HTML
 CSS
 JavaScript
 🚀 What It Includes
-🏠 Home Section
 
-🔗 https://github.com/user-attachments/assets/3bd0a706-313d-40c5-84cf-5eb4cbe75122
+## 🏠 Home Section
+![Home Section](https://github.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
 
-Introduction with name, role, and overview of skills.
 
-👤 About Me Section
-
+## 👤 About Me Section  
 🔗 https://github.com/user-attachments/assets/7a991a54-681a-475b-bebd-a7c5af307ff6
 
 Overview of background, interests, and focus in Data Analytics and Machine Learning.
