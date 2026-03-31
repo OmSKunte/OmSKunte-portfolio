@@ -4,7 +4,7 @@ Personal portfolio website showcasing my projects, skills, certifications, and e
 
 ## 🌐 Live Website  
 
-🔗 https://omskunte.github.io/OmSKunte-Portfolio/
+🔗 https://omskunte.github.io/OmSKunte-portfolio/
 
 📌 About This Project
 
@@ -16,7 +16,8 @@ JavaScript
 🚀 What It Includes
 
 ## 🏠 Home Section
-![Home Section](https://github.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
+![Home Section](https://gi
+thub.com/user-attachments/assets/96a3979b-3e45-4300-9c72-0a83f6ab4d98)
 
 
 ## 👤 About Me Section  
@@ -25,9 +26,10 @@ JavaScript
 Overview of background, interests, and focus in Data Analytics and Machine Learning.
 
 ## 💼 Projects Section  
-![Projects Section 1](https://github.com/user-attachments/assets/4db04c6f-ca13-4618-8a78-4918fde5b046)  
-![Projects Section 2](https://github.com/user-attachments/assets/34b40f68-94e5-4d3f-bffe-6a4c4f4d6692)
 
+![Projects Section 1](https://github.com/user-attachments/assets/4db04c6f-ca13-4618-8a78-4918fde5b046)  
+
+![Projects Section 2](https://github.com/user-attachments/assets/34b40f68-94e5-4d3f-bffe-6a4c4f4d6692)
 
 Includes key projects:
 
@@ -36,6 +38,7 @@ World Energy Consumption Analysis
 Sales Analysis Dashboard
 
 ## 🛠 Skills Section  
+
 ![Skills Section](https://github.com/user-attachments/assets/38aae5e8-1ea6-4006-9ccb-ac9185089b1d)  
 
 Technical skills in Python, SQL, Power BI, Machine Learning, and Data Visualization.
@@ -47,26 +50,27 @@ Technical skills in Python, SQL, Power BI, Machine Learning, and Data Visualizat
 Includes Deloitte Data Analytics Job Simulation and practical experience.
 
 ## 🎓 Qualifications  
+
 ![Qualifications](https://github.com/user-attachments/assets/3de4c6a0-8497-4852-9e9d-691cdf341365)  
 
 Academic background in Computer Science.
 
-📜 Certifications
+## 📜 Certifications  
 
-🔗 Part 1: https://github.com/user-attachments/assets/d408f314-028f-48f6-b99c-ad5e1720f9ac
+![Certifications 1](https://github.com/user-attachments/assets/075d8d79-74bc-46b3-8ee7-3af6bc3a8693)  
 
-🔗 Part 2: https://github.com/user-attachments/assets/b04feaa1-fe7d-4ad8-9d32-3157d3367e0a
+![Certifications 2](https://github.com/user-attachments/assets/adc4e6f9-874a-471e-965a-dcd04256cb67)
 
 Certifications in Data Science, Python, AI, and Leadership.
 
-📞 Contact Section
+## 📞 Contact Section  
 
-🔗 https://github.com/user-attachments/assets/991fa3ea-435f-4c8a-a5fe-1ba4cad12239
+![Contact Section](https://github.com/user-attachments/assets/2b99849f-2917-484d-a44c-694f30adb961)
 
 Contact details including email and LinkedIn.
 
-🔚 Footer Section
+## 🔚 Footer Section  
 
-🔗 https://github.com/user-attachments/assets/7b0804bb-f2b4-4a5c-9175-de06f5dee7e8
+![Footer Section](https://github.com/user-attachments/assets/9f88e765-b79c-4a01-ab01-75314dc2f5e8)  
 
 Basic information and copyright.
